@@ -1,0 +1,18 @@
+[package]
+name = "BotOsint"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+teloxide = "0.13.0"
+reqwest = "*"
+serde_json = "*" 
+serde = "*"
+tldextract = "0.6.0"
+log = "0.4.22"
+env_logger = "0.10" 
+regex = "*"
+libc = "0.2"
+futures = "*"
+rand = "*"
+tokio = { version = "1", features = ["full"] }
